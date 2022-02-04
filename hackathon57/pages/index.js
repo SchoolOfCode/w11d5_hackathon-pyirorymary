@@ -5,31 +5,26 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return (
-    <>
-      <Head>
+	return (
+		<>
+			<Head>
+				<title>NextJS | Home</title>
+			</Head>
+			<main>
+				<h1 className={styles.title}>NextJS Basics</h1>
 
-        <title>NextJS | Home</title>
-      </Head>
-      <main>
-        <h1 className={styles.title}>NextJS Basics</h1>
+				<p className={styles.text}>
+					This page gives a very brief overview of why developers may choose to
+					use Next JS to create User Interfaces.
+				</p>
 
-        <p className={styles.text}>
-          Nunc libero nisl ultrices. Vivamus. Volutpat dis, fringilla velit
-          penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
-          platea.
-        </p>
-        <p className={styles.text}>
-          Nunc libero nisl ultrices. Vivamus. Volutpat dis, fringilla velit
-          penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
-          platea.
-        </p>
-
-        <Link href="/quote">
-          <a className={styles.btn}>Get some Humor</a>
-
-        </Link>
-      </main>
-    </>
-  );
+				<Link href="/quote">
+					<a className={styles.btn}>Get some Humour</a>
+				</Link>
+				<Link href="/renderingtypes">
+					<a className={styles.btn}>Learn About Rendering</a>
+				</Link>
+			</main>
+		</>
+	);
 }
