@@ -1,3 +1,4 @@
+import React from "react";
 import InfoCard from "../components/InfoCard";
 
 function PreRender() {
@@ -10,6 +11,7 @@ function PreRender() {
 				Javascript code and the react code, which the browser reads and renders.
 				The 'initial paint' can take a long time and can leave a poor User
 				Experience. This is where NextJS can come in handy."
+				src="https://miro.medium.com/max/2000/1*bFkE292yNaxErbbhJ8Ee-w.png"
 			/>
 
 			<InfoCard
@@ -21,6 +23,7 @@ function PreRender() {
 				whatever resource, the server will build the with the most recently
 				fetched data before it even reaches the page. We can use the
 				getServerSideProps() method of the SDK to render pages in this way."
+				src={"/getServerSideProps.png"}
 			/>
 			<InfoCard
 				title="Pre-Rendering"
@@ -28,6 +31,7 @@ function PreRender() {
 				which comes as part of the NextJS SDK - getStaticProps() This method
 				could be used to call an API returning data which is then passed to the
 				component in the form of props."
+				src="/getStaticProps.png"
 			/>
 			<InfoCard
 				title="Incremental Static Regeneration "
@@ -35,16 +39,23 @@ function PreRender() {
 				the getStaticProps() method, you can add a 'revalidate' options returned
 				from this method (shown below) which can rebuild the page whenever new
 				request is made within a certain time interval."
+				src="/revalidate.png"
 			/>
 			<InfoCard
 				title="File Structure"
 				text="Within NextJS applicaitons, you have a Pages directory, each file
-				exports a react component which is basically a route mirroring the URL
+				exports a react component. Each page file is basically a route mirroring the URL
 				e.g. myapplication/users if you had a page called users.js within the
-				Pages folder. 
-				
-				NextJS provides a useful useRouter() method which can be utilised for
+				Pages folder."
+				src="/filestruct.png"
+			/>
+			<InfoCard
+				title="Routing"
+				text="NextJS provides a useful useRouter() method which can be utilised for
 				easy navigation of the application."
+				text2=" Be sure to Import {useRouter} from 'next/router' at the top of the page and then initiate router by calling useRouter
+				const router = useRouter()"
+				src="/routeLinksExample.png"
 			/>
 		</div>
 	);
