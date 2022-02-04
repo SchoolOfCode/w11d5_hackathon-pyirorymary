@@ -1,0 +1,14 @@
+.meals{
+  /* display: flex; */
+  margin: 0 1em;
+}
+.mealCard{
+  border-bottom: 0.2rem solid #faa;
+  padding-bottom: 1em;
+}
+.mealName{
+  color: mediumseagreen;
+}
+.img{
+  width: 45%;
+}
