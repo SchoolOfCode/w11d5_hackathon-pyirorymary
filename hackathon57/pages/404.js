@@ -13,7 +13,8 @@ function OhDear() {
 
   return (
     <div className="oh-dear">
-      <h2>Sorry, nowt found!</h2>
+      <h2>Sorry, this page doesn't exist!</h2>
+      <p>You'll redirected back to Home...</p>
       <Link href="/">
         <a className="oh-dear-link">Go back to Home</a>
       </Link>
