@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <>
       <Head>
+
         <title>NextJS | Home</title>
       </Head>
       <main>
         <h1 className={styles.title}>NextJS Basics</h1>
+
         <p className={styles.text}>
           Nunc libero nisl ultrices. Vivamus. Volutpat dis, fringilla velit
           penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
@@ -22,8 +24,10 @@ export default function Home() {
           penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
           platea.
         </p>
-        <Link href="/quote">
-          <a className={styles.btn}>Qoding Quote</a>
+
+        <Link href="/qoutes">
+          <a className={styles.btn}>Get some Humur</a>
+
         </Link>
       </main>
     </>

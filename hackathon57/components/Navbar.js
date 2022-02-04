@@ -4,6 +4,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
+
         <h1>NextJS</h1>
       </div>
       <Link href="/">

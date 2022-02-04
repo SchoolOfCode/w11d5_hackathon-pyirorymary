@@ -1,12 +1,12 @@
-.meals{
+.qoutes{
   /* display: flex; */
   margin: 0 1em;
 }
-.mealCard{
+.qouteCard{
   border-bottom: 0.2rem solid #faa;
   padding-bottom: 1em;
 }
-.mealName{
+.qouteName{
   color: mediumseagreen;
 }
 .img{
