@@ -25,8 +25,8 @@ export default function Home() {
           platea.
         </p>
 
-        <Link href="/qoutes">
-          <a className={styles.btn}>Get some Humur</a>
+        <Link href="/quote">
+          <a className={styles.btn}>Get some Humor</a>
 
         </Link>
       </main>
