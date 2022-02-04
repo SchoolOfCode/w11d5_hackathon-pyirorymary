@@ -4,16 +4,16 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <h1>Meals4U</h1>
+        <h1>NextJS</h1>
       </div>
       <Link href="/">
         <a>Home</a>
       </Link>
-      <Link href="/search">
-        <a>Search</a>
+      <Link href="/prerender">
+        <a>CSR & SSR</a>
       </Link>
-      <Link href="/meals">
-        <a>Dish of the day</a>
+      <Link href="/quote">
+        <a>Quote of the day</a>
       </Link>
     </nav>
   );
