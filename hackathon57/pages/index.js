@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Meal4U | Home</title>
+        <title>Programmer's Qoutes | Home</title>
       </Head>
       <main>
-        <h1 className={styles.title}>Home of your fav meals</h1>
+        <h1 className={styles.title}>In the Head of a Programmer</h1>
         <p className={styles.text}>
           Nunc libero nisl ultrices. Vivamus. Volutpat dis, fringilla velit
           penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
@@ -22,8 +22,8 @@ export default function Home() {
           penatibus dui et sagittis dictumst cum. Nostra. Mi tincidunt praesent
           platea.
         </p>
-        <Link href="/meals">
-          <a className={styles.btn}>Go eat well</a>
+        <Link href="/qoutes">
+          <a className={styles.btn}>Get some Humur</a>
         </Link>
       </main>
     </>
